@@ -8,20 +8,43 @@
 import SwiftUI
 
 struct SettingsView: View {
-    var body: some View {
+    
+    
+    @Environment(\.colorScheme) var colorScheme
         
+    @State private var darkMode: Bool = true
+    
+    @Binding var titleOn: Bool
+    
+    var body: some View {
+
         Form {
             
             Section(header: Text("First Section")) {
-                Text("Test")
+                
+                if darkMode {
+                    Text("Dark Theme enabled")
+                        .bold()
+                }
+                else {
+                    Text("Light Theme enabled")
+                        .bold()
+                }
+                
                 Slider(value: .constant(0.5))
+ 
             }
             
             Section(header: Text("Secon Section")) {
-                Text("Test")
-                Toggle(isOn: .constant(true)) {
-                    Text("Test Setting")
-                        .bold()
+                Toggle(isOn: $darkMode ) {
+                    Text("Dark Theme")
+                }
+                
+                Toggle(isOn: $titleOn) {
+
+                    if titleOn {
+                        Text("Navigation Title Enabled")
+                    }
                 }
             }
         }
@@ -30,6 +53,6 @@ struct SettingsView: View {
 
 struct SettingsView_Previews: PreviewProvider {
     static var previews: some View {
-        SettingsView()
+        SettingsView(titleOn: .constant(true))
     }
 }

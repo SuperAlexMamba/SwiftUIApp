@@ -9,19 +9,21 @@ import SwiftUI
 
 struct InfoView: View {
     
+    var titleOn: Bool
+    
     var body: some View {
-        
+                
         NavigationView {
             List(posts) { post in
                 InfoRow(post: post)
             }
-            .navigationTitle("Posts")
+            .navigationTitle(titleOn ? "Posts" : "")
         }
     }
 }
 
 struct InfoView_Previews: PreviewProvider {
     static var previews: some View {
-        InfoView()
+        InfoView(titleOn: true)
     }
 }
