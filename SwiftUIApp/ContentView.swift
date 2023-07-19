@@ -19,9 +19,9 @@ struct ContentView: View {
                     Text("InfoView")
                     Image(systemName: "newspaper")
                 }
-            HelloView()
+            MapView()
                 .tabItem {
-                    Text("HelloView")
+                    Text("Locations")
                     Image(systemName: "globe")
                 }
             SettingsView(titleOn: $titleOn)

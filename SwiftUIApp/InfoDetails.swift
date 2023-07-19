@@ -16,7 +16,7 @@ struct InfoDetails: View {
         ScrollView {
             
             VStack {
-            PostCapsulelImage(post: post)
+                PostCapsulelImage(post: post).animation(.easeIn, value: 1.0)
 
                 Text(post.title)
                     .font(.largeTitle)

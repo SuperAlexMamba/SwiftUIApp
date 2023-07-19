@@ -36,11 +36,11 @@ struct SettingsView: View {
             }
             
             Section(header: Text("Secon Section")) {
-                Toggle(isOn: $darkMode ) {
+                Toggle(isOn: $darkMode.animation()) {
                     Text("Dark Theme")
                 }
                 
-                Toggle(isOn: $titleOn) {
+                Toggle(isOn: $titleOn.animation()) {
 
                     if titleOn {
                         Text("Navigation Title Enabled")

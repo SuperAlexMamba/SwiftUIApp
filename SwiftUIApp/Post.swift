@@ -7,6 +7,7 @@
 
 import Foundation
 import SwiftUI
+import CoreLocation
 
 struct Post: Hashable, Codable, Identifiable {
     
@@ -21,4 +22,14 @@ struct Post: Hashable, Codable, Identifiable {
     var image: Image {
         Image(imageName)
     }
+}
+
+struct Annotations: Identifiable {
+    
+    var id = UUID()
+    
+    var name: String
+        
+    var coordinate: CLLocationCoordinate2D
+    
 }

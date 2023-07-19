@@ -18,7 +18,7 @@
 		DD78C9C22A58150A009069F2 /* PostCapsulelImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD78C9C12A58150A009069F2 /* PostCapsulelImage.swift */; };
 		DD78C9C42A58294D009069F2 /* PostDescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD78C9C32A58294D009069F2 /* PostDescriptionView.swift */; };
 		DD78C9C62A582D73009069F2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD78C9C52A582D73009069F2 /* ContentView.swift */; };
-		DD78C9C82A58898D009069F2 /* HelloView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD78C9C72A58898D009069F2 /* HelloView.swift */; };
+		DD78C9C82A58898D009069F2 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD78C9C72A58898D009069F2 /* MapView.swift */; };
 		DD78C9CA2A5889A2009069F2 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD78C9C92A5889A2009069F2 /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
@@ -35,7 +35,7 @@
 		DD78C9C12A58150A009069F2 /* PostCapsulelImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCapsulelImage.swift; sourceTree = "<group>"; };
 		DD78C9C32A58294D009069F2 /* PostDescriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDescriptionView.swift; sourceTree = "<group>"; };
 		DD78C9C52A582D73009069F2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		DD78C9C72A58898D009069F2 /* HelloView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloView.swift; sourceTree = "<group>"; };
+		DD78C9C72A58898D009069F2 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		DD78C9C92A5889A2009069F2 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -70,7 +70,7 @@
 			isa = PBXGroup;
 			children = (
 				DD78C9C52A582D73009069F2 /* ContentView.swift */,
-				DD78C9C72A58898D009069F2 /* HelloView.swift */,
+				DD78C9C72A58898D009069F2 /* MapView.swift */,
 				DD78C9C92A5889A2009069F2 /* SettingsView.swift */,
 				DD78C9A72A57FFE3009069F2 /* SwiftUIAppApp.swift */,
 				DD78C9BB2A580204009069F2 /* InfoView.swift */,
@@ -167,7 +167,7 @@
 				DD78C9B62A57FFF2009069F2 /* Post.swift in Sources */,
 				DD78C9C42A58294D009069F2 /* PostDescriptionView.swift in Sources */,
 				DD78C9BE2A580692009069F2 /* InfoRow.swift in Sources */,
-				DD78C9C82A58898D009069F2 /* HelloView.swift in Sources */,
+				DD78C9C82A58898D009069F2 /* MapView.swift in Sources */,
 				DD78C9A82A57FFE3009069F2 /* SwiftUIAppApp.swift in Sources */,
 				DD78C9BC2A580204009069F2 /* InfoView.swift in Sources */,
 				DD78C9C62A582D73009069F2 /* ContentView.swift in Sources */,
